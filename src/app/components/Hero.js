@@ -8,7 +8,8 @@ export default function Hero() {
 
           {/* Left Content */}
           <div className="max-w-lg ml-auto">
-            <h1 className=" text-white text-7xl font-bold mb-4">Hi, I'm <br />Tanuja Gurav</h1>
+           <h1>I&apos;m Tanuja Gurav</h1>
+
             <p className="text-white text-2xl mb-6">
               I develop 3D visuals, user
               interfaces and Fullstack web applications

@@ -42,7 +42,8 @@ export default function Portfolio() {
       >
         <div className="max-w-6xl mx-auto px-6 py-24 text-white">
           <div className="backdrop-blur-sm bg-black/30 p-8 rounded-2xl max-w-3xl">
-            <h2 className="text-4xl md:text-6xl font-extrabold leading-tight">Hi — I'm Tanu.</h2>
+           <h2 className="text-4xl md:text-6xl font-extrabold leading-tight">Hi — I&apos;m Tanu.</h2>
+
             <p className="mt-4 text-lg md:text-xl text-gray-200">I design clean interfaces and build fast frontends. I blend UX thinking with code to ship usable product experiences.</p>
             <div className="mt-6 flex gap-4">
               <a href="#work" className="inline-block px-6 py-3 bg-white text-black rounded-md font-medium">View Work</a>
