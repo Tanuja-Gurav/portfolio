@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { styles } from "../utils/stayle";
+import { styles } from "../utils/style";
 import Image from "next/image";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
@@ -32,7 +32,7 @@ const Hero = () => {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <Image
-              src="/profile.png"
+              src="/profile.jpg"
               alt="Profile"
               fill
               className="object-cover rounded-full border-4 border-[#915EFF] shadow-[0_0_20px_#915EFF]"
@@ -61,7 +61,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl`}>
             Hi, I&apos;m{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#915EFF] to-[#6B5BFF]">
-              Nikita
+              Tanuja
             </span>
           </h1>
           <motion.p
